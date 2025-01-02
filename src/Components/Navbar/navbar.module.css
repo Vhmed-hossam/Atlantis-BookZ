@@ -1,0 +1,135 @@
+.navbar-expand-lg {
+  padding: 0;
+  margin: 0;
+  background-color: #027c83;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #F8F3EE;
+  text-decoration: none;
+}
+
+.toggler {
+  color: #027c83;
+  border: 2px solid #027c83;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.toggler:hover {
+  background-color: #027c83;
+  color: #F8F3EE;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navItem {
+  margin-right: 15px;
+  position: relative;
+}
+
+.navLink {
+  color: #F8F3EE;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #cccccc;
+}
+
+.selected {
+  background-color: #027c83;
+  padding: 5px 16px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  margin: 0;
+}
+
+.selected a {
+  text-decoration: none;
+  color: #F8F3EE;
+}
+
+.selected:hover {
+  background-color: #4da4a8;
+}
+
+.selected:hover a {
+  color: #F8F3EE;
+}
+
+
+.nselected {
+  background-color: transparent;
+  padding: 5px 16px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  margin: 0;
+}
+
+.nselected a {
+  text-decoration: none;
+  color: #F8F3EE;
+}
+
+.nselected:hover a {
+  color: #0399a1;
+}
+
+
+.navbg {
+  background-color: #001314;
+}
+
+.mainbg {
+  background-color: #027c83;
+}
+
+.mainclr {
+  color: #027c83;
+}
+
+.navbarbtn {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: transparent;
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+  border: 2px solid #027c83;
+}
+
+.navbarbtn:active {
+  background-color: #027c83;
+  color: #F8F3EE;
+}
+
+.navbarbtn:active i {
+  color: #F8F3EE;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.selected a:focus {
+  color: #012D2F;
+}
+
+.nselected a:focus {
+  color: #EAD8C6;
+}

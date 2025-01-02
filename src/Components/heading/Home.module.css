@@ -1,0 +1,15 @@
+.image{
+    width: 250px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.header {
+    background-color: #027c83;
+    height: 70vh;
+    padding-block: 100px;
+}
+.font52{
+    font-size: 70px;
+    color: #F8F3EE;
+}

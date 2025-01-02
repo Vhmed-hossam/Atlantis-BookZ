@@ -1,0 +1,11 @@
+.st {
+    color: #ffffff;
+    margin: 0 15px;
+}
+
+.lines {
+    width: 140px;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}

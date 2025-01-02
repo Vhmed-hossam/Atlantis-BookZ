@@ -1,0 +1,39 @@
+.textinput input, .textinput textarea {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: x-large;
+}
+
+.textinput input::placeholder, .textinput textarea::placeholder {
+    font-size: x-large;
+}
+
+.textinput input:focus, .textinput textarea:focus {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.textinput textarea {
+    resize: none;
+    height: 180px;
+}
+
+.btn {
+    background-color: #027c83; 
+    border: none;
+    color: #F8F3EE;
+    padding: 20px 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: larger;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+    user-select: none;
+}
+.btn:hover {    
+    background-color: #16a7af;
+    color: #F8F3EE;
+}
